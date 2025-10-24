@@ -1,0 +1,54 @@
+.feedback-form {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9; /* Slightly different background */
+    border-top: 1px solid #eee;
+}
+
+.feedback-form h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.feedback-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box; /* Include padding in width */
+    resize: vertical; /* Allow vertical resize */
+}
+
+.feedback-form button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.feedback-form button:hover {
+    background-color: #333;
+}
+
+.feedback-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.success-message {
+    color: #2ea44f;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.error-message {
+    color: #cb2431;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,74 @@
+.order-history-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.order-history-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.order-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden; /* Ensures padding works with borders */
+}
+
+.order-header {
+    background-color: #f7f7f7;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 0.5rem;
+}
+
+.order-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.order-date, .order-total {
+    margin: 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.order-total {
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+}
+
+.order-items-list {
+    list-style: none;
+    padding: 1rem 1.5rem;
+    margin: 0;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.order-item:not(:last-child) {
+    border-bottom: 1px dashed #eee;
+}
+
+.order-item span:last-child {
+    font-weight: 500;
+}
+
+.error-message {
+    color: #cb2431;
+    text-align: center;
+}
